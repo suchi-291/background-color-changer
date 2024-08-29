@@ -8,7 +8,7 @@ function App() {
       <input
         id="colour"
         type="color"
-        onClick={(e) => {
+        onChange={(e) => {
           color = e.target.value;
           setColor((document.body.style.background = color));
         }}
